@@ -1,6 +1,6 @@
 # npmtest-owasp-password-strength-test
 
-#### basic test coverage for  owasp-password-strength-test (v1.3.0)  [![npm package](https://img.shields.io/npm/v/npmtest-owasp-password-strength-test.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-owasp-password-strength-test) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-owasp-password-strength-test.svg)](https://travis-ci.org/npmtest/node-npmtest-owasp-password-strength-test)
+#### basic test coverage for  [owasp-password-strength-test (v1.3.0)](https://github.com/nowsecure/owasp-password-strength-test)  [![npm package](https://img.shields.io/npm/v/npmtest-owasp-password-strength-test.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-owasp-password-strength-test) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-owasp-password-strength-test.svg)](https://travis-ci.org/npmtest/node-npmtest-owasp-password-strength-test)
 
 #### A password-strength tester based upon the OWASP guidelines for enforcing strong passwords.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-owasp-password-strength-test/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-owasp-password-strength-test/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-owasp-password-strength-test/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-owasp-password-strength-test/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-owasp-password-strength-test/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-owasp-password-strength-test/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-owasp-password-strength-test/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-owasp-password-strength-test/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-owasp-password-strength-test/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-owasp-password-strength-test/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-owasp-password-strength-test/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-owasp-password-strength-test/build/coverage.html/index.html)
 
@@ -35,34 +35,54 @@
 ```json
 
 {
-    "name": "owasp-password-strength-test",
-    "version": "1.3.0",
+    "author": {
+        "name": "Chris Allen Lane"
+    },
+    "bugs": {
+        "url": "https://github.com/nowsecure/owasp-password-strength-test/issues"
+    },
+    "dependencies": {},
     "description": "A password-strength tester based upon the OWASP guidelines for enforcing strong passwords.",
-    "main": "owasp-password-strength-test.js",
     "devDependencies": {
         "jshint": "2.6.3",
         "mocha": "2.2.4",
         "should": "3.1.2"
     },
+    "directories": {},
+    "dist": {
+        "shasum": "4f629e42903e8f6d279b230d657ab61e58e44b12",
+        "tarball": "https://registry.npmjs.org/owasp-password-strength-test/-/owasp-password-strength-test-1.3.0.tgz"
+    },
+    "gitHead": "a8545f211fd90108fc976c31ff53fbf0d5316be2",
+    "homepage": "https://github.com/nowsecure/owasp-password-strength-test",
     "jshintConfig": {
         "expr": true,
         "laxbreak": true
-    },
-    "scripts": {
-        "test": "mocha --recursive --reporter spec test.js",
-        "lint": "jshint *.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/nowsecure/owasp-password-strength-test.git"
     },
     "keywords": [
         "security",
         "password",
         "owasp"
     ],
-    "author": "Chris Allen Lane",
-    "license": "MIT"
+    "license": "MIT",
+    "main": "owasp-password-strength-test.js",
+    "maintainers": [
+        {
+            "name": "chrisallenlane"
+        }
+    ],
+    "name": "owasp-password-strength-test",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nowsecure/owasp-password-strength-test.git"
+    },
+    "scripts": {
+        "lint": "jshint *.js",
+        "test": "mocha --recursive --reporter spec test.js"
+    },
+    "version": "1.3.0",
+    "bin": {}
 }
 ```
 
